@@ -1,0 +1,131 @@
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi"
+     xmlns:netfx="http://schemas.microsoft.com/wix/NetFxExtension">
+	<Product Id="*" Name="QLTOLabel" Language="1033" Version="1.0.0.0" Manufacturer="QTechnics" UpgradeCode="6850432a-93ed-4ec1-ae1b-5173df652cf3">
+		<Package InstallerVersion="200" Compressed="yes" InstallScope="perMachine" />
+
+		<MajorUpgrade DowngradeErrorMessage="A newer version of [ProductName] is already installed." />
+		<MediaTemplate />
+		<Feature Id="ProductFeature" Title="QLTOLabel" Level="1">
+			<ComponentGroupRef Id="ProductComponents" />
+      <ComponentGroupRef Id="LocaleComponents" />
+      <ComponentRef Id="DesktopShortcut" />
+      <ComponentRef Id="ProgramShortcut"/>
+      <ComponentRef Id="ProgramMenuDir"/>
+		</Feature>
+    <UIRef Id="WixUI_Mondo"/>
+    <Icon Id="icon.ico" SourceFile="c:\barcode.ico"/>
+    <Property Id="ARPPRODUCTICON" Value="icon.ico" />
+	</Product>
+ 
+	<Fragment>
+    <PropertyRef Id="NETFRAMEWORK40FULL"/>
+		<Directory Id="TARGETDIR" Name="SourceDir">
+			<Directory Id="ProgramFilesFolder">
+        <Directory Id="ApplicationProgramsFolder" Name="QTechnics">
+          <Directory Id="INSTALLFOLDER" Name="QLTOLabel">
+            <Directory Id="tr" Name ="tr" />
+          </Directory>
+        </Directory>
+      </Directory>
+      <Directory Id="ProgramMenuFolder" Name="Programs">
+        <Directory Id="ProgramMenuDir" Name="QTechnics">
+          <Component Id="ProgramMenuDir" Guid="5fe72074-d92f-402d-b262-2dda267e3cd6">
+            <RemoveFolder Id='ProgramMenuDir' On='uninstall' />
+            <RegistryValue Root='HKCU' Key='SOFTWARE\QTechnics\QLTOLabel' Type='string' Value='' KeyPath='yes' />
+          </Component>
+        </Directory>
+      </Directory>
+      <Directory Id="DesktopFolder" Name="Desktop"/>
+		</Directory>
+    
+	</Fragment>
+
+	<Fragment>
+		<ComponentGroup Id="ProductComponents" Directory="INSTALLFOLDER">
+			<Component Id="ProductComponent">
+        <File Source="$(var.QLTOLabel.TargetPath)" KeyPath="yes">
+        </File>
+			</Component>
+      <Component Id="DesktopShortcut" Guid="a2136b48-c7a0-4d16-961f-39eb8ac98e81">
+        <RegistryValue Id="RegShortcutDesktop" Root="HKCU"
+                Key="SOFTWARE\QTechnics\QLTOLabel\settings" Name="DesktopSC" Value="1"
+                Type="integer" KeyPath="yes" />
+        <Shortcut Id="desktopSC" Target="[INSTALLFOLDER]QLTOLabel.exe"
+                Directory="DesktopFolder" Name="QLTOLabel 1.0"
+                WorkingDirectory="INSTALLFOLDER" Advertise="no"
+                Icon="icon1.txt" IconIndex="0">
+          <Icon Id="icon1.txt" SourceFile="$(var.QLTOLabel.TargetDir)QLTOLabel.exe" />
+        </Shortcut>
+      </Component>
+      
+      <Component Id="ProgramShortcut" Guid="59d90a35-d8e4-42d3-a601-ca522c351ff6">
+        <RegistryValue Id="RegShortcutProgram" Root="HKCU"
+                Key="SOFTWARE\QTechnics\QLTOLabel\settings" Name="ProgramSC" Value="1"
+                Type="integer" KeyPath="yes" />
+        <Shortcut Id="programSC" Target="[INSTALLFOLDER]QLTOLabel.exe"
+                Directory="ProgramMenuDir" Name="QLTOLabel 1.0"
+                WorkingDirectory="INSTALLFOLDER" Advertise="no"
+                Icon="icon2.txt" IconIndex="0">
+          <Icon Id="icon2.txt" SourceFile="$(var.QLTOLabel.TargetDir)QLTOLabel.exe"/>
+        </Shortcut>
+      </Component>
+      <Component Id ="DevExpress.Data.v13.2.dll">
+        <File Source="$(var.QLTOLabel.TargetDir)DevExpress.Data.v13.2.dll" />
+      </Component>
+      <Component Id ="DevExpress.Office.v13.2.Core.dll">
+        <File Source="$(var.QLTOLabel.TargetDir)DevExpress.Office.v13.2.Core.dll" />
+      </Component>
+      <Component Id ="DevExpress.Printing.v13.2.Core.dll">
+        <File Source="$(var.QLTOLabel.TargetDir)DevExpress.Printing.v13.2.Core.dll" />
+      </Component>
+      <Component Id ="DevExpress.Utils.v13.2.dll">
+        <File Source="$(var.QLTOLabel.TargetDir)DevExpress.Utils.v13.2.dll" />
+      </Component>
+      <Component Id ="DevExpress.Utils.v13.2.UI.dll">
+        <File Source="$(var.QLTOLabel.TargetDir)DevExpress.Utils.v13.2.UI.dll" />
+      </Component>
+      <Component Id ="DevExpress.XtraEditors.v13.2.dll">
+        <File Source="$(var.QLTOLabel.TargetDir)DevExpress.XtraEditors.v13.2.dll" />
+      </Component>
+      <Component Id ="DevExpress.XtraPrinting.v13.2.dll">
+        <File Source="$(var.QLTOLabel.TargetDir)DevExpress.XtraPrinting.v13.2.dll" />
+      </Component>
+      <Component Id ="DevExpress.XtraReports.v13.2.dll">
+        <File Source="$(var.QLTOLabel.TargetDir)DevExpress.XtraReports.v13.2.dll" />
+      </Component>
+      <Component Id ="DevExpress.XtraReports.v13.2.Extensions.dll">
+        <File Source="$(var.QLTOLabel.TargetDir)DevExpress.XtraReports.v13.2.Extensions.dll" />
+      </Component>
+    </ComponentGroup>
+    <ComponentGroup Id="LocaleComponents" Directory="tr">
+      <Component Id ="DevExpress.Data.v13.2.resources.dll">
+        <File Source="$(var.QLTOLabel.TargetDir)tr\DevExpress.Data.v13.2.resources.dll" />
+      </Component>
+      <Component Id ="DevExpress.Office.v13.2.Core.resources.dll">
+        <File Source="$(var.QLTOLabel.TargetDir)tr\DevExpress.Office.v13.2.Core.resources.dll" />
+      </Component>
+      <Component Id ="DevExpress.Printing.v13.2.Core.resources.dll">
+        <File Source="$(var.QLTOLabel.TargetDir)tr\DevExpress.Printing.v13.2.Core.resources.dll" />
+      </Component>
+      <Component Id ="DevExpress.Utils.v13.2.resources.dll">
+        <File Source="$(var.QLTOLabel.TargetDir)tr\DevExpress.Utils.v13.2.resources.dll" />
+      </Component>
+      <Component Id ="DevExpress.Utils.v13.2.UI.resources.dll">
+        <File Source="$(var.QLTOLabel.TargetDir)tr\DevExpress.Utils.v13.2.UI.resources.dll" />
+      </Component>
+      <Component Id ="DevExpress.XtraEditors.v13.2.resources.dll">
+        <File Source="$(var.QLTOLabel.TargetDir)tr\DevExpress.XtraEditors.v13.2.resources.dll" />
+      </Component>
+      <Component Id ="DevExpress.XtraPrinting.v13.2.resources.dll">
+        <File Source="$(var.QLTOLabel.TargetDir)tr\DevExpress.XtraPrinting.v13.2.resources.dll" />
+      </Component>
+      <Component Id ="DevExpress.XtraReports.v13.2.resources.dll">
+        <File Source="$(var.QLTOLabel.TargetDir)tr\DevExpress.XtraReports.v13.2.resources.dll" />
+      </Component>
+      <Component Id ="DevExpress.XtraReports.v13.2.Extensions.resources.dll">
+        <File Source="$(var.QLTOLabel.TargetDir)tr\DevExpress.XtraReports.v13.2.Extensions.resources.dll" />
+      </Component>
+    </ComponentGroup>
+    
+	</Fragment>
+</Wix>

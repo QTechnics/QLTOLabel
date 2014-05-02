@@ -1,0 +1,7 @@
+D:\Google Drive\Projects\Entity\QLTOLabel\QLTOLabel\Setup\bin\Release\Setup.wixpdb
+obj\Release\Product.wixobj
+D:\Google Drive\Projects\Entity\QLTOLabel\QLTOLabel\Setup\bin\Release\cab1.cab
+D:\Google Drive\Projects\Entity\QLTOLabel\QLTOLabel\Setup\bin\Release\Setup.msi
+obj\Release\Setup.wixproj.BindContentsFileListnull.txt
+obj\Release\Setup.wixproj.BindOutputsFileListnull.txt
+obj\Release\Setup.wixproj.BindBuiltOutputsFileListnull.txt
