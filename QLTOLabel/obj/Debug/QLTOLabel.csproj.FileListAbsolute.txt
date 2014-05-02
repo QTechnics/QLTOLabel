@@ -1,0 +1,12 @@
+C:\Users\VICTORIOUS\AppData\Local\Temporary Projects\QLTOLabel\bin\Debug\QLTOLabel.exe.config
+D:\Google Drive\Projects\Entity\QLTOLabel\QLTOLabel\bin\Debug\QLTOLabel.exe.config
+D:\Google Drive\Projects\Entity\QLTOLabel\QLTOLabel\obj\Debug\QLTOLabel.csprojResolveAssemblyReference.cache
+D:\Google Drive\Projects\Entity\QLTOLabel\QLTOLabel\obj\Debug\QLTOLabel.frmMain.resources
+D:\Google Drive\Projects\Entity\QLTOLabel\QLTOLabel\obj\Debug\QLTOLabel.Properties.Resources.resources
+D:\Google Drive\Projects\Entity\QLTOLabel\QLTOLabel\obj\Debug\QLTOLabel.csproj.GenerateResource.Cache
+D:\Google Drive\Projects\Entity\QLTOLabel\QLTOLabel\obj\Debug\QLTOLabel.exe.licenses
+D:\Google Drive\Projects\Entity\QLTOLabel\QLTOLabel\bin\Debug\QLTOLabel.exe
+D:\Google Drive\Projects\Entity\QLTOLabel\QLTOLabel\bin\Debug\QLTOLabel.pdb
+D:\Google Drive\Projects\Entity\QLTOLabel\QLTOLabel\obj\Debug\QLTOLabel.exe
+D:\Google Drive\Projects\Entity\QLTOLabel\QLTOLabel\obj\Debug\QLTOLabel.pdb
+D:\Google Drive\Projects\Entity\QLTOLabel\QLTOLabel\obj\Debug\QLTOLabel.rptBarkod.resources
