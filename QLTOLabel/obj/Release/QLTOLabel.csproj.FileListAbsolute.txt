@@ -72,4 +72,3 @@ D:\Google Drive\Projects\Entity\QLTOLabel\QLTOLabel\QLTOLabel\obj\Release\QLTOLa
 D:\Google Drive\Projects\Entity\QLTOLabel\QLTOLabel\QLTOLabel\obj\Release\QLTOLabel.rptBarkod.resources
 D:\Google Drive\Projects\Entity\QLTOLabel\QLTOLabel\QLTOLabel\obj\Release\QLTOLabel.csproj.GenerateResource.Cache
 D:\Google Drive\Projects\Entity\QLTOLabel\QLTOLabel\QLTOLabel\obj\Release\QLTOLabel.exe.licenses
-D:\Google Drive\Projects\Entity\QLTOLabel\QLTOLabel\QLTOLabel\obj\Release\QLTOLabel.csprojResolveAssemblyReference.cache

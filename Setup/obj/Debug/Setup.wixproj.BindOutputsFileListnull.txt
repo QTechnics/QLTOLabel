@@ -1,0 +1,3 @@
+D:\Google Drive\Projects\Entity\QLTOLabel\QLTOLabel\Setup\bin\Debug\cab1.cab
+D:\Google Drive\Projects\Entity\QLTOLabel\QLTOLabel\Setup\bin\Debug\Setup.msi
+D:\Google Drive\Projects\Entity\QLTOLabel\QLTOLabel\Setup\bin\Debug\Setup.wixpdb
