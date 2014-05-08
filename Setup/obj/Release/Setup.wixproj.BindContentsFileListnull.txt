@@ -8,6 +8,7 @@ D:\Google Drive\Projects\Entity\QLTOLabel\QLTOLabel\QLTOLabel\bin\Release\DevExp
 D:\Google Drive\Projects\Entity\QLTOLabel\QLTOLabel\QLTOLabel\bin\Release\tr\DevExpress.Utils.v13.2.resources.dll
 D:\Google Drive\Projects\Entity\QLTOLabel\QLTOLabel\QLTOLabel\bin\Release\DevExpress.Utils.v13.2.UI.dll
 D:\Google Drive\Projects\Entity\QLTOLabel\QLTOLabel\QLTOLabel\bin\Release\tr\DevExpress.Utils.v13.2.UI.resources.dll
+D:\Google Drive\Projects\Entity\QLTOLabel\QLTOLabel\QLTOLabel\bin\Release\DevExpress.XtraBars.v13.2.dll
 D:\Google Drive\Projects\Entity\QLTOLabel\QLTOLabel\QLTOLabel\bin\Release\DevExpress.XtraEditors.v13.2.dll
 D:\Google Drive\Projects\Entity\QLTOLabel\QLTOLabel\QLTOLabel\bin\Release\tr\DevExpress.XtraEditors.v13.2.resources.dll
 D:\Google Drive\Projects\Entity\QLTOLabel\QLTOLabel\QLTOLabel\bin\Release\DevExpress.XtraPrinting.v13.2.dll

@@ -72,3 +72,9 @@ D:\Google Drive\Projects\Entity\QLTOLabel\QLTOLabel\QLTOLabel\obj\Release\QLTOLa
 D:\Google Drive\Projects\Entity\QLTOLabel\QLTOLabel\QLTOLabel\obj\Release\QLTOLabel.rptBarkod.resources
 D:\Google Drive\Projects\Entity\QLTOLabel\QLTOLabel\QLTOLabel\obj\Release\QLTOLabel.csproj.GenerateResource.Cache
 D:\Google Drive\Projects\Entity\QLTOLabel\QLTOLabel\QLTOLabel\obj\Release\QLTOLabel.exe.licenses
+D:\Google Drive\Projects\Entity\QLTOLabel\QLTOLabel\QLTOLabel\bin\Release\DevExpress.XtraBars.v13.2.dll
+D:\Google Drive\Projects\Entity\QLTOLabel\QLTOLabel\QLTOLabel\bin\Release\DevExpress.XtraBars.v13.2.xml
+D:\Google Drive\Projects\Entity\QLTOLabel\QLTOLabel\QLTOLabel\bin\Release\tr\DevExpress.XtraBars.v13.2.resources.dll
+D:\Google Drive\Projects\Entity\QLTOLabel\QLTOLabel\QLTOLabel\bin\Release\DevExpress.XtraTreeList.v13.2.dll
+D:\Google Drive\Projects\Entity\QLTOLabel\QLTOLabel\QLTOLabel\bin\Release\DevExpress.XtraTreeList.v13.2.xml
+D:\Google Drive\Projects\Entity\QLTOLabel\QLTOLabel\QLTOLabel\bin\Release\tr\DevExpress.XtraTreeList.v13.2.resources.dll

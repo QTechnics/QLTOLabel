@@ -96,6 +96,12 @@
       <Component Id ="DevExpress.XtraReports.v13.2.Extensions.dll">
         <File Source="$(var.QLTOLabel.TargetDir)DevExpress.XtraReports.v13.2.Extensions.dll" />
       </Component>
+      <Component Id ="DevExpress.XtraBars.v13.2.dll">
+        <File Source="$(var.QLTOLabel.TargetDir)DevExpress.XtraBars.v13.2.dll" />
+      </Component>
+      <Component Id ="DevExpress.XtraTreeList.v13.2.dll">
+        <File Source="$(var.QLTOLabel.TargetDir)DevExpress.XtraTreeList.v13.2.dll" />
+      </Component>
     </ComponentGroup>
     <ComponentGroup Id="LocaleComponents" Directory="tr">
       <Component Id ="DevExpress.Data.v13.2.resources.dll">
